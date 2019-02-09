@@ -16,8 +16,6 @@ int main() {
                 if(a[j]<a[i])
                     dp[i]=max(dp[i], dp[j]+1);
         }
-    for(i=0;i<n;i++)
-        cout<<dp[i]<<' ';
-    cout<<'\n';
+    cout<<"Length of longest increasing subsequence: "<<dp[n-1]<<'\n';
     return 0;
 }
