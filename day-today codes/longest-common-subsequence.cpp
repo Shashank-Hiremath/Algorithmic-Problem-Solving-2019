@@ -1,3 +1,4 @@
+// g++ longest-common-subsequence.cpp -o longest-common-subsequence;./longest-common-subsequence
 #include <iostream>
 #include <cstring>
 using namespace std;
