@@ -13,9 +13,9 @@ int main()
             tma=max(0,tma);
             if(ma<tma)
                 ma=tma;
-            cout<<ma<<" ";
+            // cout<<ma<<" ";
         }
-    cout<<ma<<'\n';
+    cout<<'\n'<<ma<<'\n';
 }
 
 
